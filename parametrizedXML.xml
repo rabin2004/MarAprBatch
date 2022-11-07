@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  	<parameter name="chrome path" value="E:\\Drivers\\chromedriver.exe"></parameter>
+  	<parameter name="test url" value="https://amazon.com"></parameter>
+  	<parameter name="invalid username" value="test@gmail.com"></parameter>
+  	<parameter name="invalid password" value="test@12"></parameter>
+  	
+    <classes>
+      <class name="testNGbasics.ParameterizationFromXML"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
