@@ -8,6 +8,7 @@
       <class name="testNGbasics.UsingPrePostAnnotations"/>
       <class name="testNGbasics.FewKeyWordsPriorityEnabled"/>
       <class name="testNGbasics.Annotations"/>
+      <class name="testNGbasics.Annotations"/>
     </classes>
   </test> <!-- Regression Test -->
 </suite> <!-- Regression Suite -->
